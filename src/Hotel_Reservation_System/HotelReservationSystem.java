@@ -243,22 +243,9 @@ public class HotelReservationSystem {
 
 
 
-//    public static void exit() throws InterruptedException{
-//        System.out.print("Exiting System");
-//        int i = 5;
-//        while (i != 0){
-//            System.out.print(".");
-//            Thread.sleep(400);
-//            i--;
-//        }
-//
-//        System.out.println();
-//        System.out.println("Thank You For Using Hotel Reservations System..!");
-//    }
-
     public static void exit() throws InterruptedException{
         String msg = "Exiting System....";
-//        Thread th = new Thread();
+
         for(char ch: msg.toCharArray()){
             System.out.print(ch);
             Thread.sleep(200);
